@@ -31,4 +31,4 @@ If you get this error, select the JSON file under Solution Explorer and then in 
 
 ### 'deploymentName' does not match expected pattern '^[-\w\._\(\)]+$'.
 
-If you get this error, change the JSON file name. The file name should not contain any of the above characters. Possibly no spaces too but I have not tested this.
+If you get this error, change the JSON file name. I got this error because the JSON file name had spaces which had to be removed.
