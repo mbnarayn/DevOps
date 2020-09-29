@@ -1,15 +1,15 @@
 # Store ARM Templates in Azure Repos and Deploy via Visual Studio 2019
 
-This method allows you to store ARM templates in an Azure Repo and deploy directly to Azure using Visual Studio 2019. Both the ARM templates as well as the entire Visual Studio project folder will be synced to Azure Repos using Git.
+This method allows you to store ARM templates in an Azure Repo and deploy directly to Azure using Visual Studio 2019. Both the ARM templates as well as the entire Visual Studio project folder will be synced to Azure Repos using Git. The steps below will need to followed in Azure DevOps and Visual Studio to make this work.
 
-### Steps to Follow in Azure DevOps 
+### Azure DevOps 
 
 - Create a new Azure DevOps Organisation in Azure DevOps if you don't already have one
 - Create a new project in the Azure DevOps Organisation if you don't already have one
 - Create a new Git Repo within the project via Azure Repos if you don't already have one
 - Copy the HTTPS Clone URL for the Repo
 
-### Steps to Follow in Visual Studio 2019
+### Visual Studio 2019
 
 - Open Visual Studio 2019
 - Under Get Started, click on Clone or check out code
