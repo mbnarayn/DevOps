@@ -1,9 +1,15 @@
 # Store ARM Templates in Azure Repos and Deploy via Visual Studio 2019
 
-Create a new Azure DevOps Organisation in Azure DevOps if you don't already have one
-Create a new project in the Azure DevOps Organisation if you don't already have one
-Create a new Git Repo within the project via Azure Repos if you don't already have one
-Copy the HTTPS Clone URL for the Repo
+This method allows for the files to be 
+
+### Azure DevOps
+
+- Create a new Azure DevOps Organisation in Azure DevOps if you don't already have one
+- Create a new project in the Azure DevOps Organisation if you don't already have one
+- Create a new Git Repo within the project via Azure Repos if you don't already have one
+- Copy the HTTPS Clone URL for the Repo
+
+### Visual Studio 2019
 
 Open Visual Studio 2019
 Under Get Started, click on Clone or check out code
