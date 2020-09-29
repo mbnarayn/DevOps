@@ -23,7 +23,7 @@ This method allows you to store ARM templates in an Azure Repo and deploy direct
 - Specify a Solution Name or alternatively select the check box to "Place solution and project in the same directory"
 - Click Create and select Blank Template
 
-# Errors during ARM Template Deployment
+# ARM Template Deployment Errors
 
 ### Get-ChildItem : Cannot find path JSONFileName because it does not exist
 
