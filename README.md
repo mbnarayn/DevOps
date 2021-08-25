@@ -14,7 +14,7 @@ This method allows you to store ARM templates in an Azure Repo and deploy direct
 - Open Visual Studio 2019
 - Under Get Started, click on Clone or check out code
 - Paste the HTTPS Clone URL in to the Repository location
-- Specify a local path to which the files in the Azure Repo will be cloned to
+- Specify a local path to which the files in the Azure Repo will be cloned to (ensure the path points at a specific and dedicated sub folder for the Repo)
 - Click on Clone
 - Now Click on File - New - Project
 - Select Azure Resource Group (C# Azure Cloud) and click Next
@@ -22,6 +22,11 @@ This method allows you to store ARM templates in an Azure Repo and deploy direct
 - Specify the location to be the same folder as the local path for the Azure Repo files
 - Specify a Solution Name or alternatively select the check box to "Place solution and project in the same directory"
 - Click Create and select Blank Template
+
+### Visual Studio 2019 - When Do You Create a Project or a Solution?
+
+You only need to create a Project or a Solution if you plan to deploy to Azure directly from Visual Studio. A Project/Solution is not required if you plan to deploy via Azure Pipelines, you can simply clone a repo and git commit files back into the Repo to deploy via Azure Pipelines.
+
 
 # ARM Template Deployment Errors
 
