@@ -40,3 +40,19 @@ If you get this error, select the JSON file under Solution Explorer and then in 
 ### 'deploymentName' does not match expected pattern '^[-\w\._\(\)]+$'.
 
 If you get this error, change the JSON file name. I got this error because the JSON file name had spaces which had to be removed.
+
+# Azure Pipeline Deployment Errors
+
+### No hosted parallelism has been purchased or granted. To request a free parallelism grant, please fill out the following form https://aka.ms/azpipelines-parallelism-request
+
+Microsoft has changed the policy to allow the free tier of a hosted agent pools for public and private projects of newly created DevOps organizations by citing the reason that many are abusing this feature by sending a huge amount of traffic on these hosted agents pools. Due to this reason, many are getting the above error during the build pipeline.
+
+Microsoft say that over the past few months, the situation has gotten substantially worse, with a high percentage of new public projects in Azure DevOps being used for crypto mining and other activities we classify as abusive. In addition to taking an increasing amount of energy from the team, this puts our hosted agent pools under stress and degrades the experience of all our users – both open-source and paid.
+
+Microsoft have published a temporary alternative approach which is fill out the form here https://aka.ms/azpipelines-parallelism-request requesting access to free hosted agent pools.
+
+In the meantime you could also use a self hosted agent pool. Details on how to build a self host agent pool are clearly explained on this video https://www.youtube.com/watch?v=a1tWj3ytVSQ.
+
+
+
+
