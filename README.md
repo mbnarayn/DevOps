@@ -16,6 +16,9 @@ This method allows you to store ARM templates in an Azure Repo and deploy direct
 - Paste the HTTPS Clone URL in to the Repository location
 - Specify a local path to which the files in the Azure Repo will be cloned to (ensure the path points at a specific and dedicated sub folder for the Repo)
 - Click on Clone
+
+You can only need complete the steps below if you plan to deploy to Azure directly from Visual Studio. (See When Do You Create a Project or a Solution?)
+
 - Now Click on File - New - Project
 - Select Azure Resource Group (C# Azure Cloud) and click Next
 - Specify a Project Name
