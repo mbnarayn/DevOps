@@ -53,6 +53,18 @@ Microsoft have published a temporary alternative approach which is fill out the 
 
 In the meantime you could also use a self hosted agent pool. Details on how to build a self host agent pool are clearly explained on this video https://www.youtube.com/watch?v=a1tWj3ytVSQ.
 
+Once you have deployed a Self Hosted Agent Pool, update your pipelines YAML as below:
+
+Find the text below on YAML File
+```
+pool:
+  vmImage: ubuntu-latest
+```
+And replace with the below, where Default is the name of pool on which you installed the Self Hosted Agent.
+```
+pool: Default
+```
+
 
 
 
